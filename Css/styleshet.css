@@ -1,0 +1,187 @@
+:root{
+--Rose:#FA6980;
+--background:#F6F8F9;
+--Fontcolor:#202124;
+--Footer:#A6ADB4;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    background-color: var(--background);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Fontcolor);
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 3rem 0;
+}
+.LogoContainer{
+    background-color: #FA6980;
+}
+
+.Nav-Bar{
+    background-color: var(--background);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+.Firstsection{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.FirstImg{
+    position: relative;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    width: 50rem;
+   
+}
+.texto-encima h2{
+
+    color: white;
+   
+    text-align: center;
+    font-size: 4rem;
+}
+.texto-encima p{
+    
+    font-weight: bold;
+    color: white;
+    backdrop-filter:blur(3px) ;
+    font-size: 2rem;
+}
+
+
+/*.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+
+
+.Img-Container{
+    width: 50rem;
+    height: auto;
+}
+
+.Section2{
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+}
+
+.img-section2{
+
+    
+    
+    background-color: white;
+    
+}
+
+.img-mini{
+
+width: 40rem;
+height: 20rem;
+margin-left: 5rem;
+border-radius:  1.9rem;
+}
+.Section2 a{
+font-weight: bold;
+text-transform: uppercase;
+color: black;
+}
+
+.grid-section{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,2fr);
+    gap: 3rem;
+}
+
+.fish3{
+    grid-column: 2;
+    grid-row: 2/2;
+}
+
+.main-section2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2rem;
+
+}
+
+.graph-container{
+    width: 50rem;
+    height: 64rem;
+    margin-left: 15rem;
+
+}
+
+.Footer{
+    background-color: var(--Footer);
+    display:flex ;
+    justify-content: space-evenly;
+    gap: 2rem;
+        
+}
+.Footer a {
+    color: white;
+}
+
+.nav1-foot,.nav2-foot,.nav3-foot{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input{
+    border-radius: 1rem;
+    background-color: transparent;
+    margin-top: 2rem;
+    padding: 1rem;
+}
